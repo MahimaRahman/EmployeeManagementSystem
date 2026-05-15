@@ -1,0 +1,56 @@
+﻿@model List<BLL.DTOs.PayrollDTO>
+
+@{
+    ViewData["Title"] = "Payroll";
+}
+
+<div class="container mt-4">
+
+    <h2>Payroll Records</h2>
+
+    @if (TempData["Msg"] != null)
+    {
+        <div class="alert @TempData["Class"]">
+            @TempData["Msg"]
+        </div>
+    }
+
+    <a href="/Payroll/Generate" class="btn btn-primary mb-3">Generate Payroll</a>
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Employee</th>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Working Days</th>
+            <th>Present Days</th>
+            <th>Gross Salary</th>
+            <th>Net Salary</th>
+            <th>Generated At</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PayrollId</td>
+                <td>@item.EmployeeName</td>
+                <td>@item.Month</td>
+                <td>@item.Year</td>
+                <td>@item.WorkingDays</td>
+                <td>@item.PresentDays</td>
+                <td>@item.GrossSalary</td>
+                <td>@item.NetSalary</td>
+                <td>@item.GeneratedAt</td>
+                <td>
+                    <a href="/Payroll/Details/@item.PayrollId" class="btn btn-info btn-sm">Details</a>
+                    <a href="/Payroll/Delete/@item.PayrollId" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

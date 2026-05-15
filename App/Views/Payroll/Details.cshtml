@@ -1,0 +1,52 @@
+﻿@model BLL.DTOs.PayrollDTO
+
+@{
+    ViewData["Title"] = "Payroll Details";
+}
+
+<div class="container mt-4">
+
+    <h2>Payroll Details</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Payroll Id</th>
+            <td>@Model.PayrollId</td>
+        </tr>
+        <tr>
+            <th>Employee</th>
+            <td>@Model.EmployeeName</td>
+        </tr>
+        <tr>
+            <th>Month</th>
+            <td>@Model.Month</td>
+        </tr>
+        <tr>
+            <th>Year</th>
+            <td>@Model.Year</td>
+        </tr>
+        <tr>
+            <th>Working Days</th>
+            <td>@Model.WorkingDays</td>
+        </tr>
+        <tr>
+            <th>Present Days</th>
+            <td>@Model.PresentDays</td>
+        </tr>
+        <tr>
+            <th>Gross Salary</th>
+            <td>@Model.GrossSalary</td>
+        </tr>
+        <tr>
+            <th>Net Salary</th>
+            <td>@Model.NetSalary</td>
+        </tr>
+        <tr>
+            <th>Generated At</th>
+            <td>@Model.GeneratedAt</td>
+        </tr>
+    </table>
+
+    <a href="/Payroll/Index" class="btn btn-secondary">Back</a>
+
+</div>

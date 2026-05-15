@@ -1,0 +1,46 @@
+﻿@model List<BLL.DTOs.NotificationDTO>
+
+@{
+    ViewData["Title"] = "Notifications";
+}
+
+<div class="container mt-4">
+
+    <h2>Notifications</h2>
+
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Message</th>
+            <th>Created At</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Message</td>
+                <td>@item.CreatedAt</td>
+                <td>
+                    @if (item.IsRead)
+                    {
+                        <span class="badge bg-success">Read</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning text-dark">Unread</span>
+                    }
+                </td>
+                <td>
+                    @if (!item.IsRead)
+                    {
+                        <a href="/Notification/MarkAsRead/@item.NotificationId" class="btn btn-primary btn-sm">Mark as Read</a>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

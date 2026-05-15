@@ -1,0 +1,71 @@
+﻿@model List<BLL.DTOs.AttendanceDTO>
+
+@{
+    ViewData["Title"] = "Monthly Attendance Report";
+}
+
+<div class="container mt-4">
+
+    <h2>Monthly Attendance Report</h2>
+
+    <form method="get">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3">
+                <label class="form-label">Employee</label>
+                <select name="empId" class="form-control">
+                    <option value="">--Select Employee--</option>
+                    @foreach (var e in ViewBag.Employees)
+                    {
+                        <option value="@e.EmployeeId">@e.FirstName @e.LastName</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <label class="form-label">Month</label>
+                <input type="number" name="month" min="1" max="12" class="form-control" />
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <label class="form-label">Year</label>
+                <input type="number" name="year" class="form-control" />
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <label class="form-label">&nbsp;</label>
+                <input type="submit" value="Search" class="btn btn-primary w-100" />
+            </div>
+
+        </div>
+
+    </form>
+
+    <a href="/Attendance/Index" class="btn btn-secondary mb-3">Back</a>
+
+    @if (ViewBag.Percentage != null)
+    {
+        <div class="alert alert-info">
+            Attendance Percentage: @ViewBag.Percentage %
+        </div>
+    }
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Employee</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeName</td>
+                <td>@item.AttendanceDate</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+    </table>
+
+</div>

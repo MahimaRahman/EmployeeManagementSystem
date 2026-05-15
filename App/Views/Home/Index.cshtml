@@ -1,0 +1,197 @@
+﻿@{
+    Layout = "~/Views/Shared/_PublicLayout.cshtml";
+}
+
+<style>
+    .hero {
+        padding: 70px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero-text {
+        width: 55%;
+    }
+
+        .hero-text h1 {
+            font-size: 42px;
+            color: #1f2937;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 17px;
+            color: #4b5563;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+    .btn-area {
+        text-align: center;
+    }
+
+    .btn {
+        background: #2563eb;
+        color: white;
+        padding: 12px 28px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+    .hero-image {
+        width: 40%;
+        text-align: center;
+    }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 420px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+
+    .features {
+        padding: 30px 60px 70px 60px;
+    }
+
+        .features h2 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 35px;
+            font-size: 30px;
+        }
+
+    .feature-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .feature-card {
+        width: 33%;
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        text-align: center;
+    }
+
+        .feature-card h3 {
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+
+        .feature-card p {
+            color: #4b5563;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+    .summary-section {
+        background: #eaf2ff;
+        padding: 50px 60px;
+        text-align: center;
+    }
+
+        .summary-section h2 {
+            color: #1f2937;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .summary-section p {
+            color: #4b5563;
+            font-size: 16px;
+            line-height: 1.7;
+            width: 75%;
+            margin: auto;
+        }
+</style>
+
+<div class="hero">
+    <div class="hero-text">
+        <h1>Employee Management System</h1>
+
+        <p>
+            This system helps to manage employees, departments, attendance,
+            leave requests, payroll and reports in a simple and organized way.
+        </p>
+
+        <div class="btn-area">
+            <a href="/Auth/Login" class="btn">Login Now</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="~/images/employee" alt="Employee Management System" />
+    </div>
+</div>
+
+<div class="summary-section">
+    <h2>Manage Your Organization Easily</h2>
+
+    <p>
+        Employee Management System makes office work easier by keeping employee data,
+        department information, attendance records, leave requests and payroll details
+        in one place.
+    </p>
+</div>
+
+<div class="features">
+    <h2>System Features</h2>
+
+    <div class="feature-row">
+        <div class="feature-card">
+            <h3>Employee Management</h3>
+            <p>
+                Add, update, view and manage employee information easily.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Department Management</h3>
+            <p>
+                Manage different departments and organize employees properly.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Attendance Tracking</h3>
+            <p>
+                Keep daily attendance records and monitor employee presence.
+            </p>
+        </div>
+    </div>
+
+    <div class="feature-row">
+        <div class="feature-card">
+            <h3>Leave Request</h3>
+            <p>
+                Employees can request leave and admin can manage leave status.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Payroll Management</h3>
+            <p>
+                Manage salary, payroll records and payment related information.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Reports</h3>
+            <p>
+                View useful reports for employees, attendance, leave and payroll.
+            </p>
+        </div>
+    </div>
+</div>

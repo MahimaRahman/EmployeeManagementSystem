@@ -1,0 +1,183 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = App
+build_property.RootNamespace = App
+build_property.ProjectDir = E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\App
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Attendance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Attendance/EmployeeAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFbXBsb3llZUF0dGVuZGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Attendance/MonthlyReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxNb250aGx5UmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Auth/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Auth/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Department/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Department/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Employee/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Leave/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcQXBwbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Leave/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Leave/MyLeaves.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcTXlMZWF2ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Leave/Pending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcUGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Notification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Payroll/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Payroll/Generate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxHZW5lcmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Payroll/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Payroll/MyPayroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxNeVBheXJvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Report/DepartmentSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XERlcGFydG1lbnRTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Shared/_PublicLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QdWJsaWNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/d drive/AIUB/ALL Semesters/11th Semester/ASP.Net/projects/EmployeeManagementSystem/App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-78367sr58w

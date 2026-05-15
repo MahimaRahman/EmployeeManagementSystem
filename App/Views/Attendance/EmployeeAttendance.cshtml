@@ -1,0 +1,28 @@
+﻿@model List<BLL.DTOs.AttendanceDTO>
+
+@{
+    ViewData["Title"] = "My Attendance";
+}
+
+<div class="container mt-4">
+
+    <h2>My Attendance</h2>
+
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AttendanceDate</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+    </table>
+
+</div>

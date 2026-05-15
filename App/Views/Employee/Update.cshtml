@@ -1,0 +1,124 @@
+﻿@model BLL.DTOs.EmployeeDTO
+
+@{
+    ViewData["Title"] = "Update Employee";
+}
+
+<div class="container mt-4">
+
+    <div class="col-md-7">
+
+        <h2>Update Employee</h2>
+
+        <form method="post">
+
+            <input type="hidden" name="EmployeeId" value="@Model.EmployeeId" />
+
+            <div class="mb-3">
+                <label class="form-label">First Name</label>
+                <input type="text" name="FirstName" value="@Model.FirstName" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("FirstName")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Last Name</label>
+                <input type="text" name="LastName" value="@Model.LastName" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("LastName")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="Email" value="@Model.Email" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("Email")</span>
+            </div>
+
+            @* <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="text" name="Password" value="@Model.Password" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("Password")</span>
+            </div> *@
+
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="Password" class="form-control" />
+                <small class="text-muted">Password reset korte chaile new password din. Na hole blank rakhun.</small>
+                <span class="text-danger">@Html.ValidationMessage("Password")</span>
+            </div>
+
+
+
+            <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <input type="text" name="Phone" value="@Model.Phone" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Department</label>
+                <select name="DepartmentId" class="form-control">
+                    @foreach (var d in ViewBag.Departments)
+                    {
+                        if (d.DepartmentId == Model.DepartmentId)
+                        {
+                            <option value="@d.DepartmentId" selected>@d.DepartmentName</option>
+                        }
+                        else
+                        {
+                            <option value="@d.DepartmentId">@d.DepartmentName</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Join Date</label>
+                <input type="date" name="JoinDate" value="@Model.JoinDate.ToString("yyyy-MM-dd")" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Basic Salary</label>
+                <input type="number" name="BasicSalary" value="@Model.BasicSalary" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("BasicSalary")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Role</label>
+                <select name="Role" class="form-control">
+                    @if (Model.Role == "Admin")
+                    {
+                        <option value="Admin" selected>Admin</option>
+                        <option value="Employee">Employee</option>
+                    }
+                    else
+                    {
+                        <option value="Admin">Admin</option>
+                        <option value="Employee" selected>Employee</option>
+                    }
+                </select>
+                <span class="text-danger">@Html.ValidationMessage("Role")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Is Active</label>
+                <select name="IsActive" class="form-control">
+                    @if (Model.IsActive)
+                    {
+                        <option value="true" selected>Active</option>
+                        <option value="false">Inactive</option>
+                    }
+                    else
+                    {
+                        <option value="true">Active</option>
+                        <option value="false" selected>Inactive</option>
+                    }
+                </select>
+            </div>
+
+            <input type="submit" value="Update" class="btn btn-primary" />
+            <a href="/Employee/Index" class="btn btn-secondary">Back</a>
+
+        </form>
+
+    </div>
+
+</div>

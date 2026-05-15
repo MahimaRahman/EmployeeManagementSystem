@@ -1,0 +1,46 @@
+﻿@model List<BLL.DTOs.AttendanceDTO>
+
+@{
+    ViewData["Title"] = "Attendance";
+}
+
+<div class="container mt-4">
+
+    <h2>Attendance List</h2>
+
+    @if (TempData["Msg"] != null)
+    {
+        <div class="alert @TempData["Class"]">
+            @TempData["Msg"]
+        </div>
+    }
+
+    <a href="/Attendance/Create" class="btn btn-primary mb-3">Mark Attendance</a>
+    <a href="/Attendance/MonthlyReport" class="btn btn-info mb-3">Monthly Report</a>
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Employee</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AttendanceId</td>
+                <td>@item.EmployeeName</td>
+                <td>@item.AttendanceDate</td>
+                <td>@item.Status</td>
+                <td>
+                    <a href="/Attendance/Delete/@item.AttendanceId" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

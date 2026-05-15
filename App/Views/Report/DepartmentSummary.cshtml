@@ -1,0 +1,34 @@
+﻿@model List<BLL.DTOs.DepartmentSummaryDTO>
+
+@{
+    ViewData["Title"] = "Department Summary";
+}
+
+<div class="container mt-4">
+
+    <h2>Department Summary Report</h2>
+
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Department Name</th>
+            <th>Employee Count</th>
+            <th>Average Salary</th>
+            <th>Minimum Salary</th>
+            <th>Maximum Salary</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DepartmentName</td>
+                <td>@item.EmployeeCount</td>
+                <td>@item.AverageSalary</td>
+                <td>@item.MinSalary</td>
+                <td>@item.MaxSalary</td>
+            </tr>
+        }
+    </table>
+
+</div>

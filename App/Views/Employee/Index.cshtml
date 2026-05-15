@@ -1,0 +1,64 @@
+﻿@model List<BLL.DTOs.EmployeeDTO>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<div class="container mt-4">
+
+    <h2>Employees</h2>
+
+    @if (TempData["Msg"] != null)
+    {
+        <div class="alert @TempData["Class"]">
+            @TempData["Msg"]
+        </div>
+    }
+
+    @if (Context.Session.GetString("Role") == "Admin")
+    {
+        <a href="/Employee/Create" class="btn btn-primary mb-3">Create New</a>
+    }
+
+    <a href="/Employee/Search" class="btn btn-info mb-3">Search</a>
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Role</th>
+            <th>Active</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeId</td>
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
+                <td>@item.DepartmentName</td>
+                <td>@item.BasicSalary</td>
+                <td>@item.Role</td>
+                <td>@item.IsActive</td>
+                <td>
+                    <a href="/Employee/Details/@item.EmployeeId" class="btn btn-primary btn-sm">Details</a>
+
+                    @if (Context.Session.GetString("Role") == "Admin")
+                    {
+                        <a href="/Employee/Update/@item.EmployeeId" class="btn btn-info btn-sm">Edit</a>
+                        <a href="/Employee/Delete/@item.EmployeeId" class="btn btn-danger btn-sm"
+                           onclick="return confirm('Are you sure?')">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

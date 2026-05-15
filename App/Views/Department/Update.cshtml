@@ -1,0 +1,36 @@
+﻿@model BLL.DTOs.DepartmentDTO
+
+@{
+    ViewData["Title"] = "Update Department";
+}
+
+<div class="container mt-4">
+
+    <div class="col-md-6">
+
+        <h2>Update Department</h2>
+
+        <form method="post">
+
+            <input type="hidden" name="DepartmentId" value="@Model.DepartmentId" />
+
+            <div class="mb-3">
+                <label class="form-label">Department Name</label>
+                <input type="text" name="DepartmentName" value="@Model.DepartmentName" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("DepartmentName")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Description</label>
+                <input type="text" name="Description" value="@Model.Description" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("Description")</span>
+            </div>
+
+            <input type="submit" value="Update" class="btn btn-primary" />
+            <a href="/Department/Index" class="btn btn-secondary">Back</a>
+
+        </form>
+
+    </div>
+
+</div>

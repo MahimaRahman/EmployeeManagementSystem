@@ -1,0 +1,74 @@
+﻿@model List<BLL.DTOs.EmployeeDTO>
+
+@{
+    ViewData["Title"] = "Search Employee";
+}
+
+<div class="container mt-4">
+
+    <h2>Search Employee</h2>
+
+    <form method="get">
+
+        <div class="row">
+
+            <div class="col-md-3 mb-3">
+                <input type="text" name="name" value="@ViewBag.Name" placeholder="Name" class="form-control" />
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <select name="deptId" class="form-control">
+                    <option value="">--Department--</option>
+                    @foreach (var d in ViewBag.Departments)
+                    {
+                        <option value="@d.DepartmentId">@d.DepartmentName</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <input type="number" name="minSalary" value="@ViewBag.MinSalary" placeholder="Min Salary" class="form-control" />
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <input type="number" name="maxSalary" value="@ViewBag.MaxSalary" placeholder="Max Salary" class="form-control" />
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <input type="submit" value="Search" class="btn btn-primary w-100" />
+            </div>
+
+        </div>
+
+    </form>
+
+    <a href="/Employee/Index" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeId</td>
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.Email</td>
+                <td>@item.DepartmentName</td>
+                <td>@item.BasicSalary</td>
+                <td>@item.Role</td>
+                <td>
+                    <a href="/Employee/Details/@item.EmployeeId" class="btn btn-info btn-sm">Details</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

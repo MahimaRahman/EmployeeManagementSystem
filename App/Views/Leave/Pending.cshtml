@@ -1,0 +1,49 @@
+﻿@model List<BLL.DTOs.LeaveRequestDTO>
+
+@{
+    ViewData["Title"] = "Pending Leaves";
+}
+
+<div class="container mt-4">
+
+    <h2>Pending Leave Requests</h2>
+
+    @if (TempData["Msg"] != null)
+    {
+        <div class="alert @TempData["Class"]">
+            @TempData["Msg"]
+        </div>
+    }
+
+    <a href="/Leave/Index" class="btn btn-info mb-3">All Leaves</a>
+    <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Employee</th>
+            <th>Leave Type</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Reason</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeName</td>
+                <td>@item.LeaveType</td>
+                <td>@item.StartDate</td>
+                <td>@item.EndDate</td>
+                <td>@item.Reason</td>
+                <td>@item.Status</td>
+                <td>
+                    <a href="/Leave/Review/@item.LeaveRequestId?status=Approved" class="btn btn-success btn-sm">Approve</a>
+                    <a href="/Leave/Review/@item.LeaveRequestId?status=Rejected" class="btn btn-danger btn-sm">Reject</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

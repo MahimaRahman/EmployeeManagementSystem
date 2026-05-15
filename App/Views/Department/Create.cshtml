@@ -1,0 +1,41 @@
+﻿@model BLL.DTOs.DepartmentDTO
+
+@{
+    ViewData["Title"] = "Create Department";
+}
+
+<div class="container mt-4">
+
+    <div class="col-md-6">
+
+        <h2>Create Department</h2>
+
+        @if (TempData["Msg"] != null)
+        {
+            <div class="alert @TempData["Class"]">
+                @TempData["Msg"]
+            </div>
+        }
+
+        <form method="post">
+
+            <div class="mb-3">
+                <label class="form-label">Department Name</label>
+                <input type="text" name="DepartmentName" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("DepartmentName")</span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Description</label>
+                <input type="text" name="Description" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessage("Description")</span>
+            </div>
+
+            <input type="submit" value="Create" class="btn btn-primary" />
+            <a href="/Department/Index" class="btn btn-secondary">Back</a>
+
+        </form>
+
+    </div>
+
+</div>
