@@ -8,12 +8,6 @@
 
     <h2>Payroll Records</h2>
 
-    @if (TempData["Msg"] != null)
-    {
-        <div class="alert @TempData["Class"]">
-            @TempData["Msg"]
-        </div>
-    }
 
     <a href="/Payroll/Generate" class="btn btn-primary mb-3">Generate Payroll</a>
     <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
@@ -46,8 +40,13 @@
                 <td>@item.GeneratedAt</td>
                 <td>
                     <a href="/Payroll/Details/@item.PayrollId" class="btn btn-info btn-sm">Details</a>
-                    <a href="/Payroll/Delete/@item.PayrollId" class="btn btn-danger btn-sm"
-                       onclick="return confirm('Are you sure?')">Delete</a>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.PayrollId" />
+                        <button type="submit" class="btn btn-danger btn-sm"
+                                onclick="return confirm('Are you sure you want to delete this payroll record?')">
+                            Delete
+                        </button>
+                    </form>
                 </td>
             </tr>
         }

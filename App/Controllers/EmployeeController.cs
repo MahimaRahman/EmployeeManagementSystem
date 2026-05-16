@@ -68,29 +68,7 @@ namespace App.Controllers
             return View(data);
         }
 
-        //[AdminAccess]
-        //[HttpPost]
-        //public IActionResult Update(EmployeeDTO e)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var res = employeeService.Update(e);
-
-        //        if (res)
-        //        {
-        //            TempData["Msg"] = "Employee Updated Successfully";
-        //            TempData["Class"] = "alert-success";
-        //            return RedirectToAction("Index");
-        //        }
-        //    }
-
-        //    ViewBag.Departments = departmentService.Get();
-        //    TempData["Msg"] = "Employee Update Failed";
-        //    TempData["Class"] = "alert-danger";
-        //    return View(e);
-        //}
-
-
+        
         [AdminAccess]
         [HttpPost]
         public IActionResult Update(EmployeeDTO e)
@@ -119,6 +97,7 @@ namespace App.Controllers
 
 
         [AdminAccess]
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var res = employeeService.Delete(id);
@@ -140,14 +119,14 @@ namespace App.Controllers
 
         //update password
 
-        [AdminAccess]
+        
         [HttpGet]
         public IActionResult ChangePassword()
         {
             return View();
         }
 
-        [AdminAccess]
+       
         [HttpPost]
         public IActionResult ChangePassword(ChangePasswordDTO c)
         {

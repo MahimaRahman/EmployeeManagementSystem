@@ -32,16 +32,33 @@ namespace EMS.DAL.Repos
             return db.Attendances.Include(a => a.Employee).ToList();
         }
 
+
         public bool Update(Attendance a)
         {
             var exobj = Get(a.AttendanceId);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.Entry(exobj).CurrentValues.SetValues(a);
             return db.SaveChanges() > 0;
         }
 
+
+
+
+
         public bool Delete(int id)
         {
             var exobj = Get(id);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.Attendances.Remove(exobj);
             return db.SaveChanges() > 0;
         }

@@ -36,18 +36,22 @@ namespace App.Controllers
         [HttpPost]
         public IActionResult Create(AttendanceDTO a)
         {
-            var res = attendanceService.MarkAttendance(a);
-
-            if (res)
+            if (ModelState.IsValid)
             {
-                TempData["Msg"] = "Attendance Marked Successfully";
-                TempData["Class"] = "alert-success";
-                return RedirectToAction("Index");
+                var res = attendanceService.MarkAttendance(a);
+
+                if (res)
+                {
+                    TempData["Msg"] = "Attendance Marked Successfully";
+                    TempData["Class"] = "alert-success";
+                    return RedirectToAction("Index");
+                }
+
+                TempData["Msg"] = "Attendance Already Exists";
+                TempData["Class"] = "alert-danger";
             }
 
             ViewBag.Employees = employeeService.Get();
-            TempData["Msg"] = "Attendance Already Exists";
-            TempData["Class"] = "alert-danger";
             return View(a);
         }
 
@@ -81,6 +85,7 @@ namespace App.Controllers
         }
 
         [AdminAccess]
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var res = attendanceService.Delete(id);

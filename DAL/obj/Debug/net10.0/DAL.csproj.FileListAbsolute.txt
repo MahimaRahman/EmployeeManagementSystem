@@ -12,3 +12,4 @@ E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementS
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\DAL\bin\Debug\net10.0\DAL.runtimeconfig.json
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\DAL\obj\Debug\net10.0\DAL.genruntimeconfig.cache
+E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\DAL\obj\Debug\net10.0\DAL.sourcelink.json

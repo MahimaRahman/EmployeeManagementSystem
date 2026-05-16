@@ -33,19 +33,33 @@ namespace DAL.Repos
                 return db.Departments.ToList();
             }
 
-            public bool Update(Department d)
+
+
+        public bool Update(Department d)
+        {
+            var exobj = Get(d.DepartmentId);
+
+            if (exobj == null)
             {
-                var exobj = Get(d.DepartmentId);
-                db.Entry(exobj).CurrentValues.SetValues(d);
-                return db.SaveChanges() > 0;
+                return false;
             }
 
-            public bool Delete(int id)
-            {
-                var exobj = Get(id);
-                db.Departments.Remove(exobj);
-                return db.SaveChanges() > 0;
-            }
+            db.Entry(exobj).CurrentValues.SetValues(d);
+            return db.SaveChanges() > 0;
         }
+
+        public bool Delete(int id)
+        {
+            var exobj = Get(id);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
+            db.Departments.Remove(exobj);
+            return db.SaveChanges() > 0;
+        }
+    }
     }
 

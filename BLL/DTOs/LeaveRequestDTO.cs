@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
+using BLL.Validations;
 
 namespace BLL.DTOs
 {
@@ -12,15 +12,17 @@ namespace BLL.DTOs
 
         public string? EmployeeName { get; set; }
 
+        [Required(ErrorMessage = "Leave type is required")]
         public string LeaveType { get; set; } = null!;
 
         public DateOnly StartDate { get; set; }
 
+        [ValidLeaveEndDate("StartDate", ErrorMessage = "End date cannot be before start date")]
         public DateOnly EndDate { get; set; }
 
         public string? Reason { get; set; }
 
-        public string Status { get; set; } = null!;
+        public string Status { get; set; } = "Pending";
 
         public string? ReviewedBy { get; set; }
 

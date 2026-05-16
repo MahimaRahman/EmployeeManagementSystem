@@ -36,7 +36,10 @@
                 <td>
                     @if (!item.IsRead)
                     {
-                        <a href="/Notification/MarkAsRead/@item.NotificationId" class="btn btn-primary btn-sm">Mark as Read</a>
+                        <form asp-action="MarkAsRead" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.NotificationId" />
+                            <button type="submit" class="btn btn-primary btn-sm">Mark as Read</button>
+                        </form>
                     }
                 </td>
             </tr>

@@ -80,6 +80,9 @@ namespace App.Controllers
             return View(d);
         }
 
+
+
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var res = departmentService.Delete(id);

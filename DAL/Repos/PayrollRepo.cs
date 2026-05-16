@@ -1,6 +1,4 @@
-﻿
-
-using DAL.EF;
+﻿using DAL.EF;
 using DAL.EF.Tables;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,10 +19,6 @@ namespace DAL.Repos
             return db.SaveChanges() > 0;
         }
 
-        //public PayrollRecord Get(int id)
-        //{
-        //    return db.PayrollRecords.Find(id);
-        //}
 
         public PayrollRecord Get(int id)
         {
@@ -36,16 +30,31 @@ namespace DAL.Repos
             return db.PayrollRecords.Include(p => p.Employee).ToList();
         }
 
+        
+
         public bool Update(PayrollRecord p)
         {
             var exobj = Get(p.PayrollId);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.Entry(exobj).CurrentValues.SetValues(p);
             return db.SaveChanges() > 0;
         }
 
+
         public bool Delete(int id)
         {
             var exobj = Get(id);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.PayrollRecords.Remove(exobj);
             return db.SaveChanges() > 0;
         }

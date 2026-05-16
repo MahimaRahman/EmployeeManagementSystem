@@ -14,6 +14,8 @@
 
             <input type="hidden" name="EmployeeId" value="@Model.EmployeeId" />
 
+            <input type="hidden" name="Password" value="" />
+
             <div class="mb-3">
                 <label class="form-label">First Name</label>
                 <input type="text" name="FirstName" value="@Model.FirstName" class="form-control" />
@@ -32,19 +34,14 @@
                 <span class="text-danger">@Html.ValidationMessage("Email")</span>
             </div>
 
+
+
             @* <div class="mb-3">
-                <label class="form-label">Password</label>
-                <input type="text" name="Password" value="@Model.Password" class="form-control" />
-                <span class="text-danger">@Html.ValidationMessage("Password")</span>
-            </div> *@
-
-
-            <div class="mb-3">
                 <label class="form-label">Password</label>
                 <input type="password" name="Password" class="form-control" />
                 <small class="text-muted">Password reset korte chaile new password din. Na hole blank rakhun.</small>
                 <span class="text-danger">@Html.ValidationMessage("Password")</span>
-            </div>
+            </div> *@
 
 
 

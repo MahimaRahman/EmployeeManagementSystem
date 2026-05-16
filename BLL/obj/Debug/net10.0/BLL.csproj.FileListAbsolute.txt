@@ -13,3 +13,4 @@ E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementS
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\BLL\obj\Debug\net10.0\refint\BLL.dll
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\BLL\obj\Debug\net10.0\BLL.pdb
 E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\BLL\obj\Debug\net10.0\ref\BLL.dll
+E:\d drive\AIUB\ALL Semesters\11th Semester\ASP.Net\projects\EmployeeManagementSystem\BLL\obj\Debug\net10.0\BLL.sourcelink.json

@@ -10,38 +10,38 @@
 
         <h2>Mark Attendance</h2>
 
-        @if (TempData["Msg"] != null)
-        {
-            <div class="alert @TempData["Class"]">
-                @TempData["Msg"]
-            </div>
-        }
 
-        <form method="post">
+        <form asp-action="Create" method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="mb-3">
-                <label class="form-label">Employee</label>
-                <select name="EmployeeId" class="form-control">
+                <label asp-for="EmployeeId" class="form-label">Employee</label>
+                <select asp-for="EmployeeId" class="form-control">
                     <option value="">--Select Employee--</option>
                     @foreach (var e in ViewBag.Employees)
                     {
                         <option value="@e.EmployeeId">@e.FirstName @e.LastName</option>
                     }
                 </select>
+                <span asp-validation-for="EmployeeId" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Attendance Date</label>
-                <input type="date" name="AttendanceDate" class="form-control" />
+                <label asp-for="AttendanceDate" class="form-label">Attendance Date</label>
+                <input asp-for="AttendanceDate" type="date" class="form-control" />
+                <span asp-validation-for="AttendanceDate" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Status</label>
-                <select name="Status" class="form-control">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-control">
+                    <option value="">--Select Status--</option>
                     <option value="Present">Present</option>
                     <option value="Absent">Absent</option>
                     <option value="Leave">Leave</option>
                 </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
             </div>
 
             <input type="submit" value="Save" class="btn btn-primary" />
@@ -52,3 +52,9 @@
     </div>
 
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

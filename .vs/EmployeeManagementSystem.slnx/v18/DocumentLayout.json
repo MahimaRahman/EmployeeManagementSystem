@@ -3,8 +3,80 @@
   "WorkspaceRootPath": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\dal\\repos\\payrollrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\payrollrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\dal\\repos\\reportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\reportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\dal\\repos\\leaverepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\leaverepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\bll\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\bll\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\leave\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\leave\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\leave\\myleaves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\leave\\myleaves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\leave\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\leave\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\d drive\\aiub\\all semesters\\11th semester\\asp.net\\projects\\employeemanagementsystem\\app\\authfilter\\adminaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,24 +90,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BLL.csproj",
-              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\BLL.csproj",
-              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
-              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\BLL.csproj",
-              "RelativeToolTip": "BLL\\BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-15T08:50:31.289Z",
+              "DocumentIndex": 1,
+              "Title": "ReportRepo.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\ReportRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ReportRepo.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\ReportRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ReportRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:20:11.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PayrollRepo.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\PayrollRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PayrollRepo.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\PayrollRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PayrollRepo.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwEoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:19:49.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaveRepo.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\LeaveRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\LeaveRepo.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\DAL\\Repos\\LeaveRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\LeaveRepo.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:19:31.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AuthService.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:17:33.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaveRequestDTO.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\DTOs\\LeaveRequestDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LeaveRequestDTO.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\DTOs\\LeaveRequestDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LeaveRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:16:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttendanceDTO.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\DTOs\\AttendanceDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\AttendanceDTO.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\DTOs\\AttendanceDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\AttendanceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:15:56.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T14:14:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "App\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T14:14:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pending.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\Pending.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Leave\\Pending.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\Pending.cshtml",
+              "RelativeToolTip": "App\\Views\\Leave\\Pending.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T14:08:35.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyLeaves.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\MyLeaves.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Leave\\MyLeaves.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\MyLeaves.cshtml",
+              "RelativeToolTip": "App\\Views\\Leave\\MyLeaves.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T14:08:23.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Apply.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\Apply.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Leave\\Apply.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Leave\\Apply.cshtml",
+              "RelativeToolTip": "App\\Views\\Leave\\Apply.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T14:01:40.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "App\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:56:50.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Department\\Create.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "App\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:56:10.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "App\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:55:26.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Auth\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Auth\\Dashboard.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Auth\\Dashboard.cshtml",
+              "RelativeToolTip": "App\\Views\\Auth\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:54:50.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Attendance\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Attendance\\Create.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Attendance\\Create.cshtml",
+              "RelativeToolTip": "App\\Views\\Attendance\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:53:36.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\BLL\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BLL\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwvxYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:49:07.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Employee\\Update.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Employee\\Update.cshtml",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Views\\Employee\\Update.cshtml",
+              "RelativeToolTip": "App\\Views\\Employee\\Update.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T13:45:11.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "App\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowEkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:43:22.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AdminAccess.cs",
               "DocumentMoniker": "E:\\d drive\\AIUB\\ALL Semesters\\11th Semester\\ASP.Net\\projects\\EmployeeManagementSystem\\App\\AuthFilter\\AdminAccess.cs",
               "RelativeDocumentMoniker": "App\\AuthFilter\\AdminAccess.cs",
@@ -43,7 +349,8 @@
               "RelativeToolTip": "App\\AuthFilter\\AdminAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T06:57:30.105Z"
+              "WhenOpened": "2026-05-15T06:57:30.105Z",
+              "EditorCaption": ""
             }
           ]
         }

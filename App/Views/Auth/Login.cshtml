@@ -1,13 +1,9 @@
 ﻿
 @model BLL.DTOs.LoginDTO
 
-
-
 @{
     Layout = "~/Views/Shared/_PublicLayout.cshtml";
 }
-
-
 
 @{
     ViewData["Title"] = "Login";
@@ -20,12 +16,6 @@
     <div class="row justify-content-center">
         <div class="col-md-5">
 
-            @if (TempData["Msg"] != null)
-            {
-                <div class="alert @TempData["Class"]">
-                    @TempData["Msg"]
-                </div>
-            }
 
             <div class="card shadow border-0">
                 <div class="card-body p-4">

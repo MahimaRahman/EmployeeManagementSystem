@@ -20,13 +20,7 @@ namespace BLL.Services
             mapper = MapperConfig.GetMapper();
         }
 
-        //public bool Create(EmployeeDTO e)
-        //{
-        //    var data = mapper.Map<Employee>(e);
-        //    return repo.Create(data);
-        //}
-
-
+       
 
         public bool Create(EmployeeDTO e)
         {
@@ -66,11 +60,7 @@ namespace BLL.Services
             return employee;
         }
 
-        //public bool Update(EmployeeDTO e)
-        //{
-        //    var data = mapper.Map<Employee>(e);
-        //    return repo.Update(data);
-        //}
+
 
 
         public bool Update(EmployeeDTO e)
@@ -109,10 +99,6 @@ namespace BLL.Services
 
             return repo.UpdatePassword(id, newHash);
         }
-
-
-
-
 
 
         public bool Delete(int id)

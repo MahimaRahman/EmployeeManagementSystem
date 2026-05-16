@@ -8,12 +8,7 @@
 
     <h2>Pending Leave Requests</h2>
 
-    @if (TempData["Msg"] != null)
-    {
-        <div class="alert @TempData["Class"]">
-            @TempData["Msg"]
-        </div>
-    }
+    
 
     <a href="/Leave/Index" class="btn btn-info mb-3">All Leaves</a>
     <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
@@ -39,8 +34,17 @@
                 <td>@item.Reason</td>
                 <td>@item.Status</td>
                 <td>
-                    <a href="/Leave/Review/@item.LeaveRequestId?status=Approved" class="btn btn-success btn-sm">Approve</a>
-                    <a href="/Leave/Review/@item.LeaveRequestId?status=Rejected" class="btn btn-danger btn-sm">Reject</a>
+                    <form asp-action="Review" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.LeaveRequestId" />
+                        <input type="hidden" name="status" value="Approved" />
+                        <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                    </form>
+
+                    <form asp-action="Review" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.LeaveRequestId" />
+                        <input type="hidden" name="status" value="Rejected" />
+                        <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+                    </form>
                 </td>
             </tr>
         }

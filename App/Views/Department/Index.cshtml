@@ -8,12 +8,7 @@
 
     <h2>Departments</h2>
 
-    @if (TempData["Msg"] != null)
-    {
-        <div class="alert @TempData["Class"]">
-            @TempData["Msg"]
-        </div>
-    }
+
 
     <a href="/Department/Create" class="btn btn-primary mb-3">Create New</a>
     <a href="/Auth/Dashboard" class="btn btn-secondary mb-3">Back</a>
@@ -34,9 +29,17 @@
                 <td>@item.Description</td>
                 <td>
                     <a href="/Department/Details/@item.DepartmentId" class="btn btn-info btn-sm">Details</a>
+
                     <a href="/Department/Update/@item.DepartmentId" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="/Department/Delete/@item.DepartmentId" class="btn btn-danger btn-sm"
-                       onclick="return confirm('Are you sure?')">Delete</a>
+                    
+
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.DepartmentId" />
+                        <button type="submit" class="btn btn-danger btn-sm"
+                                onclick="return confirm('Are you sure?')">
+                            Delete
+                        </button>
+                    </form>
                 </td>
             </tr>
         }

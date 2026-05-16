@@ -31,6 +31,9 @@ namespace App.Controllers
             }
         }
 
+
+
+        [HttpPost]
         public IActionResult MarkAsRead(int id)
         {
             notificationService.MarkAsRead(id);

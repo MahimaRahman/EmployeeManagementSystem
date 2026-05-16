@@ -95,7 +95,7 @@ namespace App.Controllers
         }
 
 
-
+        [HttpPost]
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();

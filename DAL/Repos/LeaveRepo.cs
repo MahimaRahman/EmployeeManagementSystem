@@ -31,9 +31,17 @@ namespace DAL.Repos
             return db.LeaveRequests.Include(l => l.Employee).ToList();
         }
 
+
+
         public bool Update(LeaveRequest l)
         {
             var exobj = Get(l.LeaveRequestId);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.Entry(exobj).CurrentValues.SetValues(l);
             return db.SaveChanges() > 0;
         }
@@ -41,6 +49,12 @@ namespace DAL.Repos
         public bool Delete(int id)
         {
             var exobj = Get(id);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.LeaveRequests.Remove(exobj);
             return db.SaveChanges() > 0;
         }

@@ -1,40 +1,4 @@
-﻿//using AutoMapper;
-//using BLL.DTOs;
-//using DAL.EF.Tables;
-//using DAL.Repos;
-//using System;
-//using System.Collections.Generic;
-//using System.Text;
-
-//namespace BLL.Services
-//{
-//    public class AuthService
-//    {
-//        AuthRepo repo;
-//        Mapper mapper;
-
-//        public AuthService(AuthRepo repo)
-//        {
-//            this.repo = repo;
-//            mapper = MapperConfig.GetMapper();
-//        }
-
-//        public EmployeeDTO Login(LoginDTO login)
-//        {
-//            var data = repo.Login(login.Email, login.Password);
-
-//            if (data == null)
-//            {
-//                return null;
-//            }
-
-//            return mapper.Map<EmployeeDTO>(data);
-//        }
-//    }
-//}
-
-
-using AutoMapper;
+﻿using AutoMapper;
 using BLL.DTOs;
 using BLL.Helpers;
 using DAL.Repos;

@@ -36,12 +36,7 @@ namespace DAL.Repos
                 .ToList();
         }
 
-        //public bool Update(Employee e)
-        //{
-        //    var exobj = Get(e.EmployeeId);
-        //    db.Entry(exobj).CurrentValues.SetValues(e);
-        //    return db.SaveChanges() > 0;
-        //}
+
 
 
         public bool Update(Employee e)
@@ -85,12 +80,28 @@ namespace DAL.Repos
 
 
 
+        //public bool Delete(int id)
+        //{
+        //    var exobj = Get(id);
+        //    db.Employees.Remove(exobj);
+        //    return db.SaveChanges() > 0;
+        //}
+
+
         public bool Delete(int id)
         {
             var exobj = Get(id);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
             db.Employees.Remove(exobj);
             return db.SaveChanges() > 0;
         }
+
+
 
         public Employee GetByEmail(string email)
         {
