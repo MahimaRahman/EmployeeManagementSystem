@@ -6,15 +6,7 @@ namespace App.Controllers
 {
     public class AuthController : Controller
     {
-        //AuthService authService;
-
-        //public AuthController(AuthService authService)
-        //{
-        //    this.authService = authService;
-        //}
-
-
-
+        
         AuthService authService;
         NotificationService notificationService;
 
@@ -58,18 +50,6 @@ namespace App.Controllers
 
             return View(login);
         }
-
-        //public IActionResult Dashboard()
-        //{
-        //    var empId = HttpContext.Session.GetString("EmployeeId");
-
-        //    if (empId == null)
-        //    {
-        //        return RedirectToAction("Login");
-        //    }
-
-        //    return View();
-        //}
 
 
         public IActionResult Dashboard()

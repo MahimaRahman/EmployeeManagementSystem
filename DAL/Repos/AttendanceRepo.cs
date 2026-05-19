@@ -16,6 +16,7 @@ namespace EMS.DAL.Repos
             this.db = db;
         }
 
+
         public bool Create(Attendance a)
         {
             db.Attendances.Add(a);
@@ -47,9 +48,6 @@ namespace EMS.DAL.Repos
         }
 
 
-
-
-
         public bool Delete(int id)
         {
             var exobj = Get(id);
@@ -73,19 +71,14 @@ namespace EMS.DAL.Repos
 
         public Attendance GetByEmployeeAndDate(int empId, DateOnly date)
         {
-            return db.Attendances.FirstOrDefault(a =>
-                a.EmployeeId == empId &&
-                a.AttendanceDate == date);
+            return db.Attendances.FirstOrDefault(a => a.EmployeeId == empId && a.AttendanceDate == date);
+            
         }
 
         public List<Attendance> GetMonthly(int empId, int month, int year)
         {
             return db.Attendances
-                .Include(a => a.Employee)
-                .Where(a =>
-                    a.EmployeeId == empId &&
-                    a.AttendanceDate.Month == month &&
-                    a.AttendanceDate.Year == year)
+                .Include(a => a.Employee).Where(a => a.EmployeeId == empId && a.AttendanceDate.Month == month && a.AttendanceDate.Year == year)
                 .ToList();
         }
     }

@@ -24,16 +24,14 @@ namespace DAL.Repos
 
         public Employee Get(int id)
         {
-            return db.Employees
-                .Include(e => e.Department)
-                .FirstOrDefault(e => e.EmployeeId == id);
+            return db.Employees.Include(e => e.Department).FirstOrDefault(e => e.EmployeeId == id);
         }
 
         public List<Employee> Get()
         {
-            return db.Employees
-                .Include(e => e.Department)
-                .ToList();
+            return db.Employees.Include(e => e.Department).ToList();
+
+
         }
 
 
@@ -77,15 +75,6 @@ namespace DAL.Repos
             return db.SaveChanges() > 0;
         }
 
-
-
-
-        //public bool Delete(int id)
-        //{
-        //    var exobj = Get(id);
-        //    db.Employees.Remove(exobj);
-        //    return db.SaveChanges() > 0;
-        //}
 
 
         public bool Delete(int id)

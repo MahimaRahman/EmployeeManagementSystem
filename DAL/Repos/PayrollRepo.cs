@@ -20,7 +20,7 @@ namespace DAL.Repos
         }
 
 
-        public PayrollRecord Get(int id)
+        public PayrollRecord? Get(int id)
         {
             return db.PayrollRecords.Include(p => p.Employee).FirstOrDefault(p => p.PayrollId == id);
         }
@@ -67,7 +67,7 @@ namespace DAL.Repos
                 .ToList();
         }
 
-        public PayrollRecord GetByEmployeeMonthYear(int empId, int month, int year)
+        public PayrollRecord? GetByEmployeeMonthYear(int empId, int month, int year)
         {
             return db.PayrollRecords
                 .Include(p => p.Employee)

@@ -14,8 +14,7 @@ namespace DAL.Repos
 
         public List<DepartmentSummaryData> DepartmentSummary()
         {
-            var data = db.Employees
-                .GroupBy(e => e.Department.DepartmentName)
+            var data = db.Employees.GroupBy(e => e.Department.DepartmentName)
                 .Select(g => new DepartmentSummaryData
                 {
                     DepartmentName = g.Key,

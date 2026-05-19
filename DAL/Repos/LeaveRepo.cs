@@ -15,11 +15,13 @@ namespace DAL.Repos
             this.db = db;
         }
 
+
         public bool Create(LeaveRequest l)
         {
             db.LeaveRequests.Add(l);
             return db.SaveChanges() > 0;
         }
+
 
         public LeaveRequest Get(int id)
         {
@@ -59,6 +61,8 @@ namespace DAL.Repos
             return db.SaveChanges() > 0;
         }
 
+
+        //pending leave rqsts
         public List<LeaveRequest> GetPending()
         {
             return db.LeaveRequests
@@ -69,10 +73,8 @@ namespace DAL.Repos
 
         public List<LeaveRequest> GetByEmployee(int empId)
         {
-            return db.LeaveRequests
-                .Include(l => l.Employee)
-                .Where(l => l.EmployeeId == empId)
-                .ToList();
+            return db.LeaveRequests.Include(l => l.Employee)
+                .Where(l => l.EmployeeId == empId).ToList();
         }
     }
 }

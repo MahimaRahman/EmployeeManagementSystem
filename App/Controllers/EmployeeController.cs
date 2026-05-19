@@ -17,6 +17,7 @@ namespace App.Controllers
             this.departmentService = departmentService;
         }
 
+
         public IActionResult Index()
         {
             var data = employeeService.Get();
@@ -94,8 +95,6 @@ namespace App.Controllers
         }
 
 
-
-
         [AdminAccess]
         [HttpPost]
         public IActionResult Delete(int id)
@@ -157,8 +156,6 @@ namespace App.Controllers
         }
 
 
-
-
         public IActionResult Search(string name, int? deptId, decimal? minSalary, decimal? maxSalary)
         {
             var data = employeeService.Search(name, deptId, minSalary, maxSalary);
@@ -171,5 +168,9 @@ namespace App.Controllers
 
             return View(data);
         }
+
+
+
+
     }
 }

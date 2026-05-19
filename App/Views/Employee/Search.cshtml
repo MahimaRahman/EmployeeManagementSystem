@@ -18,11 +18,13 @@
 
             <div class="col-md-3 mb-3">
                 <select name="deptId" class="form-control">
+
                     <option value="">--Department--</option>
                     @foreach (var d in ViewBag.Departments)
                     {
                         <option value="@d.DepartmentId">@d.DepartmentName</option>
                     }
+
                 </select>
             </div>
 
@@ -72,3 +74,4 @@
     </table>
 
 </div>
+

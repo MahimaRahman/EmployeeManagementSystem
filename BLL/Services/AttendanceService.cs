@@ -66,10 +66,12 @@ namespace BLL.Services
             return repo.Update(data);
         }
 
+
         public bool Delete(int id)
         {
             return repo.Delete(id);
         }
+
 
         public List<AttendanceDTO> GetByEmployee(int empId)
         {

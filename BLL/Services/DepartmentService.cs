@@ -2,9 +2,6 @@
 using BLL.DTOs;
 using DAL.EF.Tables;
 using DAL.Repos;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BLL.Services
 {
@@ -19,11 +16,14 @@ namespace BLL.Services
             mapper = MapperConfig.GetMapper();
         }
 
+
+
         public bool Create(DepartmentDTO d)
         {
             var data = mapper.Map<Department>(d);
             return repo.Create(data);
         }
+
 
         public List<DepartmentDTO> Get()
         {
@@ -37,11 +37,13 @@ namespace BLL.Services
             return mapper.Map<DepartmentDTO>(data);
         }
 
+
         public bool Update(DepartmentDTO d)
         {
             var data = mapper.Map<Department>(d);
             return repo.Update(data);
         }
+
 
         public bool Delete(int id)
         {

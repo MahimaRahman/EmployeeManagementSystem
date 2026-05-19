@@ -24,33 +24,26 @@ namespace DAL.Repos
         public List<Notification> GetByEmployee(int empId)
         {
             return db.Notifications
-                .Where(n => n.EmployeeId == empId)
-                .OrderByDescending(n => n.CreatedAt)
-                .ToList();
+                .Where(n => n.EmployeeId == empId).OrderByDescending(n => n.CreatedAt).ToList();
         }
 
         public List<Notification> GetByRole(string role)
         {
-            return db.Notifications
-                .Where(n => n.Role == role)
-                .OrderByDescending(n => n.CreatedAt)
-                .ToList();
+            return db.Notifications.Where(n => n.Role == role).OrderByDescending(n => n.CreatedAt).ToList();
         }
 
         public int CountUnreadByEmployee(int empId)
         {
-            return db.Notifications
-                .Where(n => n.EmployeeId == empId && n.IsRead == false)
-                .Count();
+            return db.Notifications.Where(n => n.EmployeeId == empId && n.IsRead == false).Count();
         }
 
         public int CountUnreadByRole(string role)
         {
-            return db.Notifications
-                .Where(n => n.Role == role && n.IsRead == false)
-                .Count();
+            return db.Notifications.Where(n => n.Role == role && n.IsRead == false).Count();
         }
 
+
+        //mark notification and now I feel so tired😭haat betha hoye geche vaiiiii
         public bool MarkAsRead(int id)
         {
             var n = db.Notifications.Find(id);

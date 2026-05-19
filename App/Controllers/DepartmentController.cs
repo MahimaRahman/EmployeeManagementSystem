@@ -15,11 +15,13 @@ namespace App.Controllers
             this.departmentService = departmentService;
         }
 
+
         public IActionResult Index()
         {
             var data = departmentService.Get();
             return View(data);
         }
+
 
         [HttpGet]
         public IActionResult Create()
@@ -46,6 +48,7 @@ namespace App.Controllers
             TempData["Class"] = "alert-danger";
             return View(d);
         }
+
 
         public IActionResult Details(int id)
         {

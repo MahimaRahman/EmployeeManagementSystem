@@ -20,6 +20,7 @@ namespace BLL.DTOs
         [ValidLeaveEndDate("StartDate", ErrorMessage = "End date cannot be before start date")]
         public DateOnly EndDate { get; set; }
 
+        [Required]
         public string? Reason { get; set; }
 
         public string Status { get; set; } = "Pending";

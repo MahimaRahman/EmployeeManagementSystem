@@ -32,8 +32,6 @@ namespace BLL.Services
         }
 
 
-
-
         public List<EmployeeDTO> Get()
         {
             var data = repo.Get();

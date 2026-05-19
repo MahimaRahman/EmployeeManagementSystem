@@ -17,6 +17,7 @@ namespace DAL.Repos
                 this.db = db;
             }
 
+        
             public bool Create(Department d)
             {
                 db.Departments.Add(d);
@@ -47,6 +48,7 @@ namespace DAL.Repos
             db.Entry(exobj).CurrentValues.SetValues(d);
             return db.SaveChanges() > 0;
         }
+
 
         public bool Delete(int id)
         {
